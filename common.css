@@ -1,0 +1,107 @@
+*{
+    font-family: "微软雅黑";
+    color: #3e5062;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    height: 24px;
+    font-size: 15px;
+    padding: 0px 6px;
+}
+
+.nowrap{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.com_btn{
+    border: 1px solid #aeaeae;
+    border-radius: 5px;
+    text-align: center;
+    height: 26px;
+    line-height: 1.8;
+    font-size: 15px;
+    padding: 0px 5px;
+    color: #5A5A5A;
+    cursor: pointer;
+    background-color: #fefefe;
+    box-shadow: 0px 0px 2px #b5b5b5 inset;
+    /*text-shadow: 1px 1px 1px #b0b0b0;*/
+    -webkit-user-select: none;
+    box-sizing: border-box;
+}
+.com_btn:hover{
+    box-shadow: 0px 0px 1px #b5b5b5 inset;
+}
+.com_btn:active{
+    box-shadow: 1px 1px 1px #b5b5b5 inset;
+}
+
+.font_tip{
+    font-size: 14px;
+    color: #5A5A5A;
+}
+a {
+    color: #696969;
+    /*text-decoration: none;*/
+}
+a:visited {
+    color: #696968;
+    /*text-decoration: none;*/
+}
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+li {
+    list-style-type: none;
+    margin-left: -40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color:#fff;
+}
+::-webkit-scrollbar{
+    width:6px;
+}
+::-webkit-scrollbar-thumb{
+    background: RGBA(0,0,0,0.3);
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: RGBA(0,0,0,0.5);
+    border-radius: 0px;
+}
+/*逆时针*/
+@-webkit-keyframes 'rotate_90'{
+    from{
+        -webkit-transform:rotate(90deg);
+    }
+    to{
+        -webkit-transform:rotate(0);
+    }
+}
+/*顺时针*/
+@-webkit-keyframes 'rotate90'{
+    from{
+        -webkit-transform:rotate(0);
+    }
+    to{
+        -webkit-transform:rotate(90deg);
+    }
+}
+@-webkit-keyframes 'left2right'{
+    from{
+        -webkit-transform: translate(360px, 0px);
+    }
+    to{
+        -webkit-transform: translate(-1000px, 0px);
+    }
+}

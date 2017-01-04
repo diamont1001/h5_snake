@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="description" content="h5版本贪吃蛇">
+    <title>snake_h5</title>
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <link rel="stylesheet" type="text/css" href="snake.css">
+</head>
+
+<body>
+    <div id="wall">
+        <div id="snake_title">
+            <div>Snakes:<span id="snake_score">6</span><div>
+            <div>Speed:<span id="snake_speed">100</span></div>
+            <div>High Scores:<span id="snake_high_scores">0</span></div>
+        </div>
+        <div id="container">
+            <canvas id="canvas_snake" width="300" height="300">
+                your browser doesn't support the HTML5 element canvas
+            </canvas>
+            <div id="pause_snake" class="btn_pause"></div>
+        </div>
+        <div class="com_btn" id="start_snake">Restart</div>
+    </div>
+</body>
+<script type="text/javascript" src="http://cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+<script type="text/javascript" src="snake.js"></script>
+</html>
